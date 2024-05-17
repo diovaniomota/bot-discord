@@ -61,6 +61,6 @@ client.on(Events.InteractionCreate, async interaction =>{
     }
 })
 
-
+//desenvolvido por Diovanio mota
 
 
