@@ -34,14 +34,16 @@ client.login(TOKEN)
 client.on(Events.InteractionCreate, async interaction =>{
     if (interaction.isStringSelectMenu()){
         const selected = interaction.values[0]
-        if (selected == "javascript"){
-            await interaction.reply("Documentação do Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript")
-        } else if (selected == "python"){
-            await interaction.reply("Documentação do Python: https://www.python.org")
-        } else if (selected == "csharp"){
-            await interaction.reply("Documentação do C#: https://learn.microsoft.com/en-us/dotnet/csharp/")
-        } else if (selected == "discordjs"){
+        if (selected == "JavaScript"){
+            await interaction.reply("Documentação do JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript")
+        } else if (selected == "Flutter"){
+            await interaction.reply("Documentação do Flutter: https://docs.flutter.dev")
+        } else if (selected == "FlutterFlow"){
+            await interaction.reply("Documentação do FlutterFlow: https://docs.flutterflow.io")
+        } else if (selected == "discord.js"){
             await interaction.reply("Documentação do Discord.js: https://discordjs.guide/#before-you-begin")
+        } else if (selected == "NextJS") {
+            await interaction.reply("Documentação do NextJS: https://nextjs.org/docs")
         }
     }
     if (!interaction.isChatInputCommand()) return

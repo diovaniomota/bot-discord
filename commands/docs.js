@@ -7,8 +7,8 @@ const row = new ActionRowBuilder()
             .setPlaceholder("Nenhuma linguagem selecionada")
             .addOptions({
                 label: "JavaScript",
-                description: "Veja a documentação de JavaScrip",
-                value: "JavaScritp"
+                description: "Veja a documentação de JavaScript",
+                value: "JavaScript"
             },
 
             {
