@@ -34,7 +34,7 @@ const row = new ActionRowBuilder()
                 description: "Veja a documentação de NextJS",
                 value: "NextJS"
             }
-            )
+        )
     )
 
 module.exports = {
